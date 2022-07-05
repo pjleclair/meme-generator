@@ -1,0 +1,33 @@
+.meme--container {
+    margin: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 15px 10px;
+    width: 230px;
+    height: 35px;
+}
+
+button {
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    padding: 20px 235px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+form {
+    font-family: 'Karla';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -6,7 +6,7 @@ export default function Nav() {
         <nav>
             <div className="nav--logo">
                 <img src={require('../Troll Face.png')} alt="troll" />
-                <h1>Meme Generator</h1>
+                <h2>Meme Generator</h2>
             </div>
             <div className="nav--info">
                 React Course - Project 3
