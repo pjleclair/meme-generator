@@ -6,8 +6,8 @@ export default function Meme() {
         <div className="meme--container">
             <form>
                 <div>
-                    <input></input>
-                    <input></input>
+                    <input placeholder="Top text"></input>
+                    <input placeholder="Bottom text"></input>
                 </div>
                 <button>Get a new meme image 🖼</button>
             </form>

@@ -6,14 +6,17 @@
 
 input {
     margin: 15px 10px;
-    width: 230px;
+    width: 14.88rem;
     height: 35px;
+    border-radius: 5px;
+    text-indent: 5px;
 }
 
 button {
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border: 0;
     border-radius: 5px;
-    padding: 20px 235px;
+    padding: 20px 238px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
