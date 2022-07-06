@@ -27,10 +27,15 @@ button {
     color: #FFFFFF;
 }
 
-form {
+.form {
     font-family: 'Karla';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.meme--image {
+    width: 20rem;
+    margin-top: 2rem;
 }
