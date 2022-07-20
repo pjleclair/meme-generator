@@ -16,7 +16,7 @@ button {
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     border: 0;
     border-radius: 5px;
-    padding: 20px 238px;
+    padding: 20px 10rem;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -31,11 +31,34 @@ button {
     font-family: 'Karla';
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .meme--image {
-    width: 20rem;
-    margin-top: 2rem;
+    width: 40rem;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.meme--topText {
+    margin-bottom: -20px;
+}
+
+.meme--bottomText {
+    margin-top: auto;
+}
+
+.meme--bottomText, .meme--topText {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-overflow: ellipsis;
 }
