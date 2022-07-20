@@ -1,6 +1,5 @@
 import React from "react";
 import "./Meme.css"
-import memesData from "../memesData.js"
 
 export default function Meme() {
     const [textData, setTextData] = React.useState({
@@ -8,7 +7,7 @@ export default function Meme() {
         bottomText: "",
         memeImage: "http://i.imgflip.com/1bij.jpg"
     })
-    const [meme, setMeme] = React.useState(memesData);
+    const [meme, setMeme] = React.useState([]);
 
     function handleChange(event) {
         const {name, value} = event.target
@@ -19,6 +18,7 @@ export default function Meme() {
     }
 
     React.useEffect(function() {
+        console.log("test")
         fetch("https://api.imgflip.com/get_memes")
         .then(res => res.json())
         .then(data => setMeme(data))
