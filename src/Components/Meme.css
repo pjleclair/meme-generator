@@ -34,28 +34,35 @@ button {
     align-items: center;
 }
 
-.meme--image {
-    width: 40rem;
-    height: 40rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.meme--image-container {
+    width: fit-content;
+    height: fit-content;
     margin: 2rem;
+    position: relative;
+
+}
+
+.meme--image {
+    width: 100%;
 }
 
 .meme--topText {
-    margin-bottom: -20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .meme--bottomText {
-    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .meme--bottomText, .meme--topText {
     font-family: 'Alegreya Sans SC', sans-serif;
+    /* width: 10rem; */
     color: whitesmoke;
     font-size: xx-large;
     font-weight: bolder;
